@@ -36,7 +36,7 @@ The workflow is designed to avoid common empirical-finance failure modes:
 
 ## Current Baseline Result
 
-The results are not just statistically insignificant; the long-horizon estimates are underpowered enough that they do not say much. The 3-year confidence interval is `[-0.193, 0.274]` and the 5-year confidence interval is `[-0.541, 0.923]`, leaving room for economically large positive or negative associations. The project should therefore be read as a careful text-measure and pilot-return pipeline, not as a strong null result.
+The results are statistically insignificant, and the long-horizon estimates are underpowered enough that they do not say much. The 3-year confidence interval is [-0.193, 0.274] and the 5-year confidence interval is [-0.541, 0.923], leaving room for economically large positive or negative associations. The project should therefore be read as a careful text-measure and pilot-return pipeline, rather than as a strong null result.
 
 In this pilot sample and baseline specification, we do not find informative evidence that validated access-oriented disclosure language predicts benchmark-adjusted returns. The 1-year result is the most interpretable and suggests no large short-run association under the pilot design, but the 3-year and 5-year estimates are too imprecise for strong conclusions.
 
