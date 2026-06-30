@@ -1,10 +1,10 @@
-# Access-Oriented Disclosure Language in Financial-Firm 10-Ks
+# Do Financial-Firm 10-K Democratization Claims Predict Later Stock Returns?
 
-This repository contains a pilot research pipeline studying whether validated access-oriented disclosure language in U.S. financial and fintech-related firms’ 10-K filings is associated with subsequent stock performance.
+This repository is a pilot study of whether U.S. financial and fintech-related firms that use 10-K language about democratizing finance, financial inclusion, lower barriers, retail investors, underserved borrowers, or institutional-quality products for individuals show different subsequent stock performance.
 
 The project began from a deliberately cautious research question:
 
-> Can we identify substantive access-oriented disclosure language in 10-K filings and evaluate subsequent 1-, 3-, and 5-year stock performance where those return windows are observable?
+> Are financial-firm 10-K claims about democratizing finance, financial inclusion, lower barriers, or retail availability associated with 1-, 3-, and 5-year stock performance?
 
 The current evidence is observational. The project does **not** claim that disclosure language causes later returns.
 
@@ -16,7 +16,7 @@ The current evidence is observational. The project does **not** claim that discl
 - Filing years: 2015-2025.
 - Documents: annual 10-K filings from SEC EDGAR.
 - Text scope: Item 1 Business, Item 1A Risk Factors, and Item 7 MD&A.
-- Treatment: validated conservative filing-level access-oriented disclosure language.
+- Treatment: validated conservative filing-level democratization, inclusion, and lower-barrier language.
 - Event date: SEC 10-K filing date.
 - Outcomes: 1-, 3-, and 5-year forward compounded stock returns.
 - Primary outcome: issuer return minus CRSP value-weighted market return with dividends (`vwretd`), winsorized within horizon at p01/p99.
@@ -38,7 +38,7 @@ The workflow is designed to avoid common empirical-finance failure modes:
 
 The results are statistically insignificant, and the long-horizon estimates are underpowered enough that they do not say much. The 3-year confidence interval is [-0.193, 0.274] and the 5-year confidence interval is [-0.541, 0.923], leaving room for economically large positive or negative associations. The project should therefore be read as a careful text-measure and pilot-return pipeline, rather than as a strong null result.
 
-In this pilot sample and baseline specification, we do not find informative evidence that validated access-oriented disclosure language predicts benchmark-adjusted returns. The 1-year result is the most interpretable and suggests no large short-run association under the pilot design, but the 3-year and 5-year estimates are too imprecise for strong conclusions.
+In this pilot sample and baseline specification, we do not find informative evidence that validated democratization, inclusion, and lower-barrier language predicts benchmark-adjusted returns. The 1-year result is the most interpretable and suggests no large short-run association under the pilot design, but the 3-year and 5-year estimates are too imprecise for strong conclusions.
 
 | Horizon | Estimate | Cluster SE | p-value | 95% CI |
 | --- | ---: | ---: | ---: | --- |

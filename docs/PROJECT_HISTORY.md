@@ -4,7 +4,7 @@ This document summarizes the main design choices, validation gates, and current 
 
 ## 1. Research Question
 
-The project asks whether substantive access-oriented disclosure language in financial and fintech-related firms’ 10-K filings is associated with later stock performance.
+The project asks whether financial and fintech-related firms that use 10-K language about democratizing finance, financial inclusion, lower barriers, retail investors, underserved borrowers, or institutional-quality products for individuals show different later stock performance.
 
 The project is observational. It does not claim causation.
 
@@ -178,7 +178,7 @@ Equivalence:
 
 The strongest current conclusion is:
 
-> In this pilot sample and baseline specification, we do not find informative evidence that validated access-oriented disclosure language predicts benchmark-adjusted returns. The 1-year result is the most interpretable and suggests no large short-run association under the pilot design, but the 3-year and 5-year estimates are too imprecise for strong conclusions.
+> In this pilot sample and baseline specification, we do not find informative evidence that validated democratization, inclusion, and lower-barrier language predicts benchmark-adjusted returns. The 1-year result is the most interpretable and suggests no large short-run association under the pilot design, but the 3-year and 5-year estimates are too imprecise for strong conclusions.
 
 This should be framed as a cautious observational result, not as a causal claim.
 

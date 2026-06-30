@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
-title: "Access-Oriented Disclosure Language in Financial-Firm 10-Ks"
+title: "Do Financial-Firm 10-K Democratization Claims Predict Later Stock Returns?"
 authors:
   - family-names: "Ahmed"
     given-names: "Kamran"
