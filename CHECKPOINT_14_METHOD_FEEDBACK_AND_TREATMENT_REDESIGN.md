@@ -47,7 +47,7 @@ Generated at: 2026-06-29T15:48:17.5385957-04:00
 ## Professor Feedback Points Incorporated
 
 - Raw keyword hits are candidate signals, not evidence.
-- The `access-expansion narrative` is not a single homogeneous construct.
+- The `access-oriented disclosure signal` is not a single homogeneous construct.
 - Access language must be separated into economically distinct narrative subcategories before return analysis.
 - Phrase meaning can drift across the 2015-2025 sample, especially around 2020-2021 retail trading, crypto, and fintech language.
 - Calendar-time and vintage confounding must be addressed before interpreting return comparisons.
@@ -101,7 +101,7 @@ Tier 3: Exploratory Raw-Signal Treatment
 
 - Includes raw phrase hits or broad classifier positives.
 - Used only for robustness or sensitivity analysis.
-- Never used for main conclusions or described as substantive access-expansion evidence.
+- Never used for main conclusions or described as substantive access-oriented disclosure evidence.
 
 ## Narrative Subcategories Added
 
@@ -114,7 +114,7 @@ Tier 3: Exploratory Raw-Signal Treatment
 - Insurance / benefits access.
 - Smaller-issuer capital-market access.
 - Fee / cost / minimum-reduction framing.
-- Generic/other access-expansion.
+- generic/other access-oriented disclosure.
 
 ## High-Risk Phrase Families Requiring Stricter Handling
 

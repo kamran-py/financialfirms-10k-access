@@ -59,7 +59,7 @@ SUB_PAYMENTS = "payments / money movement / SMB commerce access"
 SUB_INSURANCE = "insurance / benefits access"
 SUB_SMALL_ISSUER = "smaller-issuer capital-market access"
 SUB_FEE = "fee / cost / minimum-reduction framing"
-SUB_OTHER = "generic/other access-expansion"
+SUB_OTHER = "generic/other access-oriented disclosure"
 
 VALID_LABELS = {TIER_1, TIER_2, TIER_3, EXCLUDED}
 VALID_CONFIDENCE = {"high", "medium", "low"}
@@ -420,7 +420,7 @@ def classify_market_access(row: dict[str, str], text: str, section: str) -> Deci
     if issuer_own(text) or has_any(text, ["our access to markets", "our access to capital markets", "we rely upon capital markets access"]):
         return exclude("high", "issuer_market_access_or_funding", "Market-access wording concerns issuer funding, liquidity, or own market access.")
     if risk_context(text, section) and not external_capital:
-        return exclude("high", "risk_or_competitor_market_access", "Market-access wording appears in risk, competitor, macro, or liquidity context without external access expansion.")
+        return exclude("high", "risk_or_competitor_market_access", "Market-access wording appears in risk, competitor, macro, or liquidity context without external access-oriented activity.")
     if has_any(text, ["prime brokers", "market data", "fees for market access", "exchange fees", "regulatory", "permission", "connectivity", "branch access to markets"]) and not external_capital:
         return exclude("high", "operational_or_regulatory_market_access", "Market-access wording is operational, exchange-connectivity, regulatory, or distribution language.")
     if external_capital and has_any(text, ["smaller issuers", "less well-known issuers", "all market participants", "direct market access at a low cost", "customers obtain"]):
@@ -472,7 +472,7 @@ def classify_barriers(row: dict[str, str], text: str, section: str) -> Decision:
         return positive_decision(TIER_2, "medium", subcategory_for(row, text), "Barrier-reduction wording identifies beneficiary and financial mechanism.")
     if has_expansion(text):
         return exploratory("low", subcategory_for(row, text), "broad_barrier_reduction_signal", "Barrier-reduction wording is broad but lacks strict beneficiary/mechanism support.")
-    return exclude("medium", "barrier_language_without_financial_access", "Barrier phrase lacks explicit financial-access expansion.")
+    return exclude("medium", "barrier_language_without_financial_access", "Barrier phrase lacks explicit financial-access activity.")
 
 
 def classify_financial_inclusion(row: dict[str, str], text: str, section: str) -> Decision:
@@ -497,13 +497,13 @@ def classify_retail_investing(row: dict[str, str], text: str, section: str) -> D
     if stock_mechanics(text):
         return exclude("high", "stock_mechanics", "Investing phrase appears in stock or share mechanics.")
     if risk_context(text, section) and has_any(text, ["halted", "restricted trading", "short positions", "adverse", "risk"]) and not has_any(text, ["products specifically designed", "services to individual retail investors"]):
-        return exclude("medium", "retail_investor_risk_context", "Retail-investor wording appears in risk or market-structure context rather than access expansion.")
+        return exclude("medium", "retail_investor_risk_context", "Retail-investor wording appears in risk or market-structure context rather than access-oriented disclosure.")
     if has_any(text, ["products specifically designed for direct investment", "services to individual retail investors", "designed for individual investors", "brokerage services", "direct indexing for schwab's retail investors", "retail investors who primarily access our products"]):
         return positive_decision(TIER_1, "high", SUB_RETAIL, "Retail or individual investors are directly offered investing, brokerage, or investment products.")
     if has_any(text, ["retail investors", "individual investors"]) and has_any(text, ["available", "access", "products", "services", "distributed", "brokerage", "investing"]):
         return positive_decision(TIER_2, "medium", SUB_RETAIL, "Retail/individual investor language is tied to financial products or services.")
     if has_any(text, ["retail investors", "individual investors"]):
-        return exploratory("low", SUB_RETAIL, "retail_investor_signal_without_access_mechanism", "Retail/individual investor wording lacks explicit access-expansion mechanism.")
+        return exploratory("low", SUB_RETAIL, "retail_investor_signal_without_access_mechanism", "Retail/individual investor wording lacks explicit access-oriented disclosure mechanism.")
     return exclude("medium", "retail_phrase_without_investing_access", "Retail investing phrase lacks treatment support.")
 
 
@@ -517,7 +517,7 @@ def classify_general(row: dict[str, str], text: str, section: str) -> Decision:
     if accounting_artifact(text) or stock_mechanics(text):
         return exclude("high", "accounting_table_or_stock_mechanics", "Phrase appears in accounting, table, portfolio, tax-credit, investment-income, or stock-mechanics context.")
     if "risk" in section and not (has_beneficiary(text) and has_mechanism(text) and direct_access_phrase(text)):
-        return exclude("medium", "risk_disclosure_only", "Risk-section language lacks clear external financial-access expansion.")
+        return exclude("medium", "risk_disclosure_only", "Risk-section language lacks clear external financial-access activity.")
     if "underserved" in category or "financial inclusion" in category:
         return classify_financial_inclusion(row, text, section)
     if "retail access" in category:
@@ -531,7 +531,7 @@ def classify_general(row: dict[str, str], text: str, section: str) -> Decision:
         )
     if has_beneficiary(text) and has_mechanism(text) and has_expansion(text):
         if has_any(text, ["customers", "consumers", "borrowers", "small businesses", "underserved", "underbanked", "unbanked", "retail investors"]):
-            return positive_decision(TIER_1, "high", subcategory_for(row, text), "External beneficiary, direct financial mechanism, and access-expansion wording are explicit.")
+            return positive_decision(TIER_1, "high", subcategory_for(row, text), "External beneficiary, direct financial mechanism, and access-oriented disclosure wording are explicit.")
         return positive_decision(TIER_2, "medium", subcategory_for(row, text), "External beneficiary and financial mechanism are present but context is less direct.")
     if has_beneficiary(text) and has_mechanism(text):
         return positive_decision(TIER_2, "medium", subcategory_for(row, text), "External beneficiary and financial mechanism are present, but expansion language is not explicit enough for Tier 1.")
@@ -762,7 +762,7 @@ def write_report(rows: list[dict[str, str]], raw_before: str, raw_after: str, v2
             "",
             "- Tier 1 and Tier 2 are treatment candidates only and require a post-tiered audit before use.",
             "- High-risk phrase families may still contain false positives despite stricter defaults.",
-            "- Conservative Tier 1 rules prioritize precision over recall and may understate access-expansion language.",
+            "- Conservative Tier 1 rules prioritize precision over recall and may understate access-oriented disclosure language.",
             "- Narrative subcategories should be reviewed for support before any filing-level treatment aggregation.",
             "- V2 failed validation and was not used as the treatment variable in this classifier.",
             "- Returns remain off-limits until Tier 1 and Tier 2 classification is validated.",

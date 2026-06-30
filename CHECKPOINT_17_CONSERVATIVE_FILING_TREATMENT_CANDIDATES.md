@@ -73,7 +73,7 @@ Candidate evidence by narrative subcategory:
 | payments / money movement / SMB commerce access | 73 |
 | private-market or alternative-investment access | 31 |
 | retail investing / brokerage democratization | 14 |
-| generic/other access-expansion | 3 |
+| generic/other access-oriented disclosure | 3 |
 
 ## Audit Sample Counts
 

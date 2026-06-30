@@ -41,7 +41,7 @@ Generated at: 2026-06-29T04:50:28.200906+00:00
 
 ## Warning
 
-Raw phrase hits are not interpreted evidence. Later classification or manual audit is required before treating any hit as substantively about access expansion.
+Raw phrase hits are not interpreted evidence. Later classification or manual audit is required before treating any hit as substantively about access-oriented disclosure.
 
 ## Next Recommended Prompt
 

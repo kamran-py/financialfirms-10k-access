@@ -107,7 +107,7 @@ Generated at: 2026-06-29T20:10:05.331475+00:00
 | retail investing / brokerage democratization | 12 |
 | smaller-issuer capital-market access | 7 |
 | payments / money movement / SMB commerce access | 2 |
-| generic/other access-expansion | 2 |
+| generic/other access-oriented disclosure | 2 |
 | private-market or alternative-investment access | 2 |
 | fee / cost / minimum-reduction framing | 1 |
 | insurance / benefits access | 1 |

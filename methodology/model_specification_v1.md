@@ -11,7 +11,7 @@ This specification is locked before running regressions or event-study estimates
 
 ## Treatment
 
-- Main treatment: `treatment_main`, equal to the validated conservative filing-level access-expansion treatment.
+- Main treatment: `treatment_main`, equal to the validated conservative filing-level access-oriented disclosure treatment.
 - This is the V3 conservative treatment that passed manual validation.
 - Raw phrase hits, failed V2 labels, and tiered V1 labels are not main treatments.
 

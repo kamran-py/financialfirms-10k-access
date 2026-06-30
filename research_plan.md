@@ -96,10 +96,10 @@ Raw hit layer:
 
 Interpreted/classified layer:
 
-- Classify whether each raw hit appears to describe access expansion, inclusion, barrier reduction, democratization, broadening, affordability, or availability.
+- Classify whether each raw hit appears to describe access-oriented disclosure, inclusion, barrier reduction, democratization, broadening, affordability, or availability.
 - Classification may be rule-based, model-assisted, or human-coded, but every classification requires method, version, label, confidence or score, and audit fields.
 - The interpreted layer cannot overwrite or replace the raw hit layer.
-- Interpreted classifications must include a label for non-access or ambiguous usage. Absence of that label is not evidence of access expansion.
+- Interpreted classifications must include a label for non-access or ambiguous usage. Absence of that label is not evidence of access-oriented disclosure.
 
 ## Return Measurement Plan
 
@@ -154,7 +154,7 @@ Measurement bias:
 Semantic overreach:
 
 - Treat filing language as disclosure text, not proof of actual product availability, customer impact, or managerial intent.
-- Require excerpt-level evidence before describing the language as access-expansion language.
+- Require excerpt-level evidence before describing the language as access-oriented disclosure language.
 - Use neutral terms such as "access-related wording" until classification and validation support a stronger description.
 
 Multiple testing and narrative risk:
@@ -166,8 +166,8 @@ Multiple testing and narrative risk:
 
 ## Claims We Are Not Allowed To Make
 
-- We are not allowed to claim that access-expansion language causes later stock returns without a separate causal design.
-- We are not allowed to claim management intent, sincerity, or actual operational access expansion beyond what the filing text states.
+- We are not allowed to claim that access-oriented disclosure language causes later stock returns without a separate causal design.
+- We are not allowed to claim management intent, sincerity, or actual operational access-oriented disclosure beyond what the filing text states.
 - We are not allowed to claim a return window exists when its target end date is after 2026-06-27.
 - We are not allowed to treat right-censored return windows, delistings, mergers, bankruptcies, or missing prices as ordinary complete observations.
 - We are not allowed to infer that absence of a raw phrase hit means absence of access-related strategy or practice.

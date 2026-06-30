@@ -10,7 +10,7 @@ These rules define candidate treatment filings only. They do not create final tr
 
 ## Unit
 
-The unit is the 10-K filing/accession. A filing can be candidate-positive only when at least one excerpt in the filing contains a high-evidence access-expansion narrative attributable to the issuer.
+The unit is the 10-K filing/accession. A filing can be candidate-positive only when at least one excerpt in the filing contains a high-evidence access-oriented disclosure signal attributable to the issuer.
 
 ## Conservative Positive Standard
 

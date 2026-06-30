@@ -45,7 +45,7 @@ Examples of qualifying context:
 
 ### `generic_marketing`
 
-Use when the excerpt is promotional, mission-oriented, or brand-oriented but lacks enough specific context to determine that it concerns financial access expansion.
+Use when the excerpt is promotional, mission-oriented, or brand-oriented but lacks enough specific context to determine that it concerns financial access-oriented disclosure.
 
 Typical cases:
 
@@ -81,18 +81,18 @@ Typical cases:
 
 ### `ambiguous`
 
-Use when the excerpt plausibly relates to access expansion but lacks enough context to distinguish it from marketing, risk disclosure, operational platform language, or unrelated use.
+Use when the excerpt plausibly relates to access-oriented disclosure but lacks enough context to distinguish it from marketing, risk disclosure, operational platform language, or unrelated use.
 
 Use this label rather than forcing a positive or negative label when the excerpt is too short, truncated, noisy, or missing the beneficiary or access mechanism.
 
 ### `false_positive`
 
-Use when the raw phrase match is clearly not about access expansion and fits none of the more specific negative labels above.
+Use when the raw phrase match is clearly not about access-oriented disclosure and fits none of the more specific negative labels above.
 
 Typical cases:
 
 - Table artifacts, headings, boilerplate, malformed extraction, or lexical accidents.
-- Negative, historical, or unrelated statements with no interpretable access-expansion context.
+- Negative, historical, or unrelated statements with no interpretable access-oriented disclosure context.
 
 ## Calibration Lessons Incorporated In Version 2
 
@@ -175,6 +175,6 @@ Notes should state the decisive coding reason, especially for:
 - Preserve raw hits separately from interpreted labels.
 - Preserve human labels separately from Codex-assisted labels.
 - Future treatment variables must be auditable back to `hit_id`, accession number, section, phrase, excerpt, label, confidence, and reviewer/source.
-- A true-positive label means only that the excerpt contains validated access-expansion wording. It does not prove actual product availability, customer impact, management intent, or future stock-performance implications.
+- A true-positive label means only that the excerpt contains validated access-oriented disclosure wording. It does not prove actual product availability, customer impact, management intent, or future stock-performance implications.
 - Absence of a raw hit is not evidence that a filing lacks access-related strategy or language.
 - No conclusion should use the word `causes` unless a separately justified identification strategy has been approved.

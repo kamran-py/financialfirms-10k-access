@@ -37,13 +37,13 @@ Important update after post-scale validation:
 Primary descriptive questions:
 
 - Which issuer-filings contain raw access-related phrase hits?
-- Which raw hits are manually validated as substantive access-expansion language?
+- Which raw hits are manually validated as substantive access-oriented disclosure language?
 - How do future raw and benchmark-adjusted returns differ between treated and control issuer-filings under pre-specified treatment definitions?
 
 Interpretive boundary:
 
 - Raw hits are not interpreted evidence.
-- Classified true-positive hits are text evidence only; they do not establish actual access expansion, customer outcomes, management intent, or causal return effects.
+- Classified true-positive hits are text evidence only; they do not establish actual access-related activity, customer outcomes, management intent, or causal return effects.
 
 ## Analysis Sequence
 
@@ -63,9 +63,9 @@ Interpretive boundary:
 
 ## Construct Validity And Narrative Subcategories
 
-Raw phrase hits are candidate signals, not evidence. A raw hit records the presence of dictionary language in an excerpt. It does not establish substantive access expansion, product availability, customer impact, management intent, or any relation to future returns.
+Raw phrase hits are candidate signals, not evidence. A raw hit records the presence of dictionary language in an excerpt. It does not establish substantive access-oriented disclosure, product availability, customer impact, management intent, or any relation to future returns.
 
-The broad phrase family previously summarized as an `access-expansion narrative` is not a homogeneous construct. Before return analysis, validated positive hits must be separated into economically distinct narrative subcategories:
+The broad phrase family previously summarized as an `access-oriented disclosure signal` is not a homogeneous construct. Before return analysis, validated positive hits must be separated into economically distinct narrative subcategories:
 
 - Financial inclusion / underbanked / underserved.
 - Consumer credit access.
@@ -76,7 +76,7 @@ The broad phrase family previously summarized as an `access-expansion narrative`
 - Insurance / benefits access.
 - Smaller-issuer capital-market access.
 - Fee / cost / minimum-reduction framing.
-- Generic/other access-expansion.
+- generic/other access-oriented disclosure.
 
 Each validated positive must identify an external beneficiary and a direct financial-access mechanism. Narrative subcategories must be preserved in the hit-level and filing-level treatment construction so return analysis does not average over economically distinct strategies without disclosure.
 
@@ -135,7 +135,7 @@ Tier 3: Exploratory Raw-Signal Treatment:
 - Raw phrase hits or broad classifier positives.
 - Used only for robustness and sensitivity analysis.
 - Never used for main conclusions.
-- Must be labeled raw-signal or exploratory, not substantive access-expansion evidence.
+- Must be labeled raw-signal or exploratory, not substantive access-oriented disclosure evidence.
 
 High-risk phrase families require explicit handling before entering Tier 1 or Tier 2:
 
@@ -234,7 +234,7 @@ Prohibited language without a separate identification strategy:
 
 Additional prohibited claims:
 
-- No claim that raw phrase hits are access-expansion evidence.
+- No claim that raw phrase hits are access-oriented disclosure evidence.
 - No claim that full-corpus V2 positives are valid treatment observations.
 - No claim that disclosure text proves actual product availability, customer impact, or management sincerity.
 - No claim that right-censored, delisted, acquired, bankrupt, failed-link, or missing-price windows are ordinary complete observations.
@@ -440,7 +440,7 @@ Additional assumptions for causal interpretation:
 
 - No causal claims without a separately justified identification strategy.
 - No claims about management intent or sincerity.
-- No claims that raw phrase hits are substantively about access expansion without classification.
+- No claims that raw phrase hits are substantively about access-oriented disclosure without classification.
 - No claims about actual customer outcomes or product availability beyond the filing text.
 - No claims that right-censored, delisted, merged, bankrupt, or missing-price observations are ordinary complete observations.
 - No conclusion should use the word `causes` unless a separate identification strategy has been approved.

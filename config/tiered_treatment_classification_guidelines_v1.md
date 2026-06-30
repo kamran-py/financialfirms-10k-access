@@ -40,13 +40,13 @@ If either element is absent or only implied vaguely, the row cannot enter Tier 1
 
 ## Tier 1: Conservative Main Treatment Candidate
 
-Use `tier_1_conservative` only when the excerpt clearly contains a true access-expansion narrative.
+Use `tier_1_conservative` only when the excerpt clearly contains a true access-oriented disclosure signal.
 
 Requirements:
 
 - Must identify an external beneficiary.
 - Must identify a direct financial-access mechanism.
-- Must describe access expansion, broader availability, affordability, lower barriers, reduced minimums, democratized availability, or improved financial inclusion.
+- Must describe access-oriented disclosure, broader availability, affordability, lower barriers, reduced minimums, democratized availability, or improved financial inclusion.
 - Must be high confidence.
 - Must be assigned to a narrative subcategory.
 
@@ -64,7 +64,7 @@ High-risk phrases may enter Tier 1 only when phrase-family rules explicitly vali
 
 ## Tier 2: Broader Validated Treatment Candidate
 
-Use `tier_2_broader_validated` when the excerpt is a validated access-expansion narrative but does not satisfy Tier 1 high-confidence requirements.
+Use `tier_2_broader_validated` when the excerpt is a validated access-oriented disclosure signal but does not satisfy Tier 1 high-confidence requirements.
 
 Requirements:
 
@@ -127,7 +127,7 @@ Positive subcategories:
 - `insurance / benefits access`
 - `smaller-issuer capital-market access`
 - `fee / cost / minimum-reduction framing`
-- `generic/other access-expansion`
+- `generic/other access-oriented disclosure`
 
 ## High-Risk Phrase Families
 
@@ -323,7 +323,7 @@ Common exclusions:
 
 Use:
 
-- `high`: clear beneficiary, mechanism, and access-expansion narrative.
+- `high`: clear beneficiary, mechanism, and access-oriented disclosure signal.
 - `medium`: beneficiary and mechanism are present but context depends on regulatory interpretation or is less direct.
 - `low`: raw-signal or access-adjacent language that should not enter Tier 1 or Tier 2.
 

@@ -115,7 +115,7 @@ Top disagreement categories:
 
 Primary disagreement pattern:
 
-- `affordable housing` positives were frequently tax-credit, portfolio, investment-income, sale, or accounting references rather than external housing-access expansion.
+- `affordable housing` positives were frequently tax-credit, portfolio, investment-income, sale, or accounting references rather than external housing-access activity.
 - Institutional-quality positives included property quality, analyst-process quality, custody infrastructure, and services to hedge funds or institutional/HNW clients.
 - Some credit-access positives described issuer funding, credit ratings, FHLB borrowing, or credit facilities rather than external borrowers.
 - Some market-access positives described issuer, competitor, prime-broker, exchange-fee, or operational access rather than customer or smaller-issuer access.

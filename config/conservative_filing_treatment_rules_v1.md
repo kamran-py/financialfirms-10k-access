@@ -57,7 +57,7 @@ Narrative subcategory:
 - `retail investing / brokerage democratization`
 - `private-market or alternative-investment access`
 - `payments / money movement / SMB commerce access`
-- `generic/other access-expansion` only if the mechanism is financial but does not fit the prior groups.
+- `generic/other access-oriented disclosure` only if the mechanism is financial but does not fit the prior groups.
 
 ### Financial Inclusion With Mechanism
 
@@ -174,7 +174,7 @@ For each filing:
 
 These candidate flags are not final treatment variables. They must pass a filing-level manual audit before any return-window construction, benchmark loading, or return analysis.
 
-The audit should evaluate whether the filing-level evidence supports a conservative access-expansion treatment candidate under these rules, not whether later returns were favorable.
+The audit should evaluate whether the filing-level evidence supports a conservative access-oriented disclosure treatment candidate under these rules, not whether later returns were favorable.
 
 ## Prohibited Use
 

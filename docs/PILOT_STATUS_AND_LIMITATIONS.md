@@ -7,7 +7,7 @@ This repository should be interpreted as a pilot research archive, not as a publ
 The current version demonstrates that the workflow is feasible:
 
 - SEC 10-K filings can be ingested and sectioned at scale.
-- Access-expansion language can be identified with phrase matching and then filtered through stricter validation.
+- Access-oriented disclosure language can be identified with phrase matching and then filtered through stricter validation.
 - Broad or weak classifiers can be rejected when audit evidence does not support them.
 - A conservative filing-level treatment can be constructed and manually validated.
 - WRDS/CRSP links and return windows can be built with explicit missingness and coverage statuses.
@@ -30,11 +30,13 @@ The current baseline estimates should therefore be treated as pilot evidence onl
 
 ## Current Baseline Result
 
-The baseline year fixed-effect models do not show a statistically clear association between validated conservative access-expansion filings and later benchmark-adjusted stock returns.
+The results are not just statistically insignificant; the long-horizon estimates are underpowered enough that they do not say much. The 3-year confidence interval is `[-0.193, 0.274]` and the 5-year confidence interval is `[-0.541, 0.923]`, leaving room for economically large positive or negative associations. The project should therefore be read as a careful text-measure and pilot-return pipeline, not as a strong null result.
+
+In this pilot sample and baseline specification, we do not find informative evidence that validated access-oriented disclosure language predicts benchmark-adjusted returns. The 1-year result is the most interpretable and suggests no large short-run association under the pilot design, but the 3-year and 5-year estimates are too imprecise for strong conclusions.
 
 | Horizon | Estimate | Cluster SE | p-value | Interpretation |
 | --- | ---: | ---: | ---: | --- |
-| 1y | 0.009 | 0.035 | 0.788 | relatively informative null |
+| 1y | 0.009 | 0.035 | 0.788 | relatively informative short-run estimate |
 | 3y | 0.040 | 0.119 | 0.735 | imprecise |
 | 5y | 0.191 | 0.373 | 0.609 | low-information |
 
@@ -68,8 +70,8 @@ Appropriate uses of this repository:
 
 Inappropriate uses:
 
-- claiming access-expansion language causes later returns,
-- claiming the null result is definitive,
+- claiming access-oriented disclosure language causes later returns,
+- claiming a definitive null result,
 - treating the 2015-2025 sample as free of survivorship bias,
 - presenting the current baseline estimates as a final empirical finance result.
 

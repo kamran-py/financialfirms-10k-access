@@ -62,7 +62,7 @@ Manual audit of `data/review/conservative_filing_treatment_v2_audit_sample.csv`.
 ## Main Failure Modes
 
 - FHLB membership and FHLB required affordable-housing-program language still leaked into sampled positives.
-- Generic commercial-real-estate loan categories that include affordable housing are not access-expansion narratives.
+- Generic commercial-real-estate loan categories that include affordable housing are not access-oriented disclosure signals.
 - Regulatory/CRA-rule language still leaked into positives when the issuer did not itself describe a product or program.
 - Card-issuing technology, private-access vehicles, and broad financial-inclusion mission language are better treated as broader sensitivity candidates unless direct end-user access is explicit.
 

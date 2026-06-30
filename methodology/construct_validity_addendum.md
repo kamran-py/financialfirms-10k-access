@@ -10,16 +10,16 @@ This addendum incorporates methodological feedback and the failed full-corpus V2
 
 ## Core Construct-Validity Position
 
-Raw keyword hits are candidate signals, not evidence. A raw phrase hit means only that a filing excerpt contains an exact phrase from the access-related dictionary. It does not establish that the filing substantively describes access expansion, a business strategy, product availability, customer impact, management intent, or any later return relation.
+Raw keyword hits are candidate signals, not evidence. A raw phrase hit means only that a filing excerpt contains an exact phrase from the access-related dictionary. It does not establish that the filing substantively describes access-oriented disclosure, a business strategy, product availability, customer impact, management intent, or any later return relation.
 
-The working construct, previously described broadly as an `access-expansion narrative`, is not homogeneous. The same language family can refer to economically different mechanisms:
+The working construct, previously described broadly as an `access-oriented disclosure signal`, is not homogeneous. The same language family can refer to economically different mechanisms:
 
 - A bank discussing credit access for low- and moderate-income communities.
 - A brokerage discussing retail-investor access, fee compression, or direct indexing.
 - A fintech platform discussing underbanked consumers or merchant payments.
 - A private-market platform discussing alternative-investment access.
 - A crypto or trading platform using democratization language in a 2020-2021 retail-trading context.
-- A financial institution discussing issuer funding, market connectivity, regulatory access, tax-credit accounting, or property quality, which may not be access expansion at all.
+- A financial institution discussing issuer funding, market connectivity, regulatory access, tax-credit accounting, or property quality, which may not be access-oriented disclosure at all.
 
 Therefore, the project must distinguish economically different access narratives before any return analysis.
 
@@ -127,7 +127,7 @@ Required mechanism examples:
 Common exclusions:
 
 - Investor-relations references.
-- Regulatory market-structure discussion without issuer access expansion.
+- Regulatory market-structure discussion without issuer access-oriented activity.
 - Risk disclosure about retail-investor trading behavior.
 - Share mechanics, stock splits, cash-in-lieu, or fractional share accounting.
 
@@ -160,7 +160,7 @@ Required mechanism examples:
 Common exclusions:
 
 - Internal payment processing infrastructure.
-- Partner integrations without external access expansion.
+- Partner integrations without external access-oriented activity.
 - Generic technology-platform quality.
 
 ### Insurance / Benefits Access
@@ -177,7 +177,7 @@ Common exclusions:
 
 - Internal employee-benefit administration.
 - Insurer capital, reinsurance, or market-access language.
-- Risk-disclosure references without external access expansion.
+- Risk-disclosure references without external access-oriented activity.
 
 ### Smaller-Issuer Capital-Market Access
 
@@ -198,7 +198,7 @@ Common exclusions:
 
 ### Fee / Cost / Minimum-Reduction Framing
 
-Language that frames access expansion through lower fees, lower minimums, reduced costs, lower barriers, or reduced investment thresholds.
+Language that frames access-oriented disclosure through lower fees, lower minimums, reduced costs, lower barriers, or reduced investment thresholds.
 
 Required mechanism examples:
 
@@ -214,9 +214,9 @@ Common exclusions:
 - Fee compression as issuer risk without external access benefit.
 - Regulatory or product-listing barriers unrelated to end-user access.
 
-### Generic / Other Access-Expansion
+### Generic / Other Access-Oriented Disclosure
 
-Validated access-expansion language that meets the external beneficiary and financial-access mechanism standard but does not fit the other categories.
+Validated access-oriented disclosure language that meets the external beneficiary and financial-access mechanism standard but does not fit the other categories.
 
 Use this category sparingly. It should not become a catch-all for vague mission language. If a row cannot identify an external beneficiary and a direct financial-access mechanism, it should not enter a positive treatment tier.
 
@@ -233,4 +233,4 @@ Before return analysis, the project must:
 
 ## Interpretive Boundary
 
-Even after revised validation, a positive treatment label means only that the filing text contains validated access-expansion wording. It does not prove actual product availability, actual customer outcomes, management sincerity, operational success, or future stock-performance effects.
+Even after revised validation, a positive treatment label means only that the filing text contains validated access-oriented disclosure wording. It does not prove actual product availability, actual customer outcomes, management sincerity, operational success, or future stock-performance effects.

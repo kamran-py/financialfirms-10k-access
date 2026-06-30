@@ -515,7 +515,7 @@ def write_checkpoint(full: MatchSummary, sample: MatchSummary, terms: list[Phras
         "",
         "## Warning",
         "",
-        "Raw phrase hits are not interpreted evidence. Later classification or manual audit is required before treating any hit as substantively about access expansion.",
+        "Raw phrase hits are not interpreted evidence. Later classification or manual audit is required before treating any hit as substantively about access-oriented disclosure.",
         "",
         "## Next Recommended Prompt",
         "",

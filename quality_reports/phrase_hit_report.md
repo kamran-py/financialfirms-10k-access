@@ -331,10 +331,10 @@ Raw phrase hits are not interpreted evidence. They are deterministic text matche
 | Phrase | Category | Notes |
 | --- | --- | --- |
 | underserved | underserved / underbanked / unbanked | Single-word term; may refer to non-financial markets or generic populations. |
-| affordable housing | homeownership access | Broad housing phrase; may not indicate access expansion. |
+| affordable housing | homeownership access | Broad housing phrase; may not indicate access-oriented disclosure. |
 | retail access | retail access to investing | Broad phrase; may refer to stores or distribution channels. |
-| retail investors | retail access to investing | Common securities-law phrase; not necessarily access expansion. |
-| individual investors | retail access to investing | Common investor-relations phrase; not necessarily access expansion. |
+| retail investors | retail access to investing | Common securities-law phrase; not necessarily access-oriented disclosure. |
+| individual investors | retail access to investing | Common investor-relations phrase; not necessarily access-oriented disclosure. |
 | institutional-grade | institutional-grade access for individuals | Broad quality phrase; may describe internal services. |
 | institutional grade | institutional-grade access for individuals | Broad quality phrase; may describe internal services. |
 | institutional quality | institutional-grade access for individuals | Broad quality phrase; may describe assets or controls. |

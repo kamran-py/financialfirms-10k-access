@@ -51,7 +51,7 @@ Generated at: 2026-06-29T19:58:13.995898+00:00
 | consumer credit access | 678 |
 | affordable housing / homeownership access | 378 |
 | smaller-issuer capital-market access | 248 |
-| generic/other access-expansion | 36 |
+| generic/other access-oriented disclosure | 36 |
 | payments / money movement / SMB commerce access | 36 |
 | fee / cost / minimum-reduction framing | 4 |
 | insurance / benefits access | 2 |
@@ -287,7 +287,7 @@ Generated at: 2026-06-29T19:58:13.995898+00:00
 
 - Tier 1 and Tier 2 are treatment candidates only and require a post-tiered audit before use.
 - High-risk phrase families may still contain false positives despite stricter defaults.
-- Conservative Tier 1 rules prioritize precision over recall and may understate access-expansion language.
+- Conservative Tier 1 rules prioritize precision over recall and may understate access-oriented disclosure language.
 - Narrative subcategories should be reviewed for support before any filing-level treatment aggregation.
 - V2 failed validation and was not used as the treatment variable in this classifier.
 - Returns remain off-limits until Tier 1 and Tier 2 classification is validated.

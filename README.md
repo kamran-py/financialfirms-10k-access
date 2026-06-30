@@ -1,10 +1,10 @@
-# Access-Expansion Narratives in Financial-Firm 10-Ks
+# Access-Oriented Disclosure Language in Financial-Firm 10-Ks
 
-This repository contains a pilot research pipeline studying whether validated “access-expansion” narratives in U.S. financial and fintech-related firms’ 10-K filings are associated with subsequent stock performance.
+This repository contains a pilot research pipeline studying whether validated access-oriented disclosure language in U.S. financial and fintech-related firms’ 10-K filings is associated with subsequent stock performance.
 
 The project began from a deliberately cautious research question:
 
-> Can we identify substantive access-expansion language in 10-K filings and evaluate subsequent 1-, 3-, and 5-year stock performance where those return windows are observable?
+> Can we identify substantive access-oriented disclosure language in 10-K filings and evaluate subsequent 1-, 3-, and 5-year stock performance where those return windows are observable?
 
 The current evidence is observational. The project does **not** claim that disclosure language causes later returns.
 
@@ -16,7 +16,7 @@ The current evidence is observational. The project does **not** claim that discl
 - Filing years: 2015-2025.
 - Documents: annual 10-K filings from SEC EDGAR.
 - Text scope: Item 1 Business, Item 1A Risk Factors, and Item 7 MD&A.
-- Treatment: validated conservative filing-level access-expansion language.
+- Treatment: validated conservative filing-level access-oriented disclosure language.
 - Event date: SEC 10-K filing date.
 - Outcomes: 1-, 3-, and 5-year forward compounded stock returns.
 - Primary outcome: issuer return minus CRSP value-weighted market return with dividends (`vwretd`), winsorized within horizon at p01/p99.
@@ -36,7 +36,9 @@ The workflow is designed to avoid common empirical-finance failure modes:
 
 ## Current Baseline Result
 
-The validated conservative treatment is not clearly associated with different subsequent benchmark-adjusted returns in the baseline year-fixed-effect models.
+The results are not just statistically insignificant; the long-horizon estimates are underpowered enough that they do not say much. The 3-year confidence interval is `[-0.193, 0.274]` and the 5-year confidence interval is `[-0.541, 0.923]`, leaving room for economically large positive or negative associations. The project should therefore be read as a careful text-measure and pilot-return pipeline, not as a strong null result.
+
+In this pilot sample and baseline specification, we do not find informative evidence that validated access-oriented disclosure language predicts benchmark-adjusted returns. The 1-year result is the most interpretable and suggests no large short-run association under the pilot design, but the 3-year and 5-year estimates are too imprecise for strong conclusions.
 
 | Horizon | Estimate | Cluster SE | p-value | 95% CI |
 | --- | ---: | ---: | ---: | --- |
@@ -44,7 +46,7 @@ The validated conservative treatment is not clearly associated with different su
 | 3y | 0.040 | 0.119 | 0.735 | [-0.193, 0.274] |
 | 5y | 0.191 | 0.373 | 0.609 | [-0.541, 0.923] |
 
-Inference diagnostics clarify the strength of this null:
+Inference diagnostics clarify why the longer-horizon evidence is low-information:
 
 - The 1-year estimate is relatively informative. The approximate 80%-power MDE is about 9.7 percentage points.
 - The 3-year estimate is less informative. The approximate MDE is about 33.4 percentage points.

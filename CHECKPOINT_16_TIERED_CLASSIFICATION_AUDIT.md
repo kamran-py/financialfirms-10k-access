@@ -68,8 +68,8 @@ Tier 2 candidate precision counts sampled Tier 2 rows as valid when the audit la
 
 Main disagreement sources:
 
-- `underserved markets`: frequently issuer market-entry or acquisition-growth language rather than external financial-access expansion.
-- `unbanked`: several risk-section rows describe competitor banks targeting unbanked users rather than issuer access expansion.
+- `underserved markets`: frequently issuer market-entry or acquisition-growth language rather than external financial-access activity.
+- `unbanked`: several risk-section rows describe competitor banks targeting unbanked users rather than issuer access-oriented activity.
 - Marketplace-lending RFI language: often substantive enough for Tier 2, but not Tier 1 because it is regulatory context rather than issuer-specific action.
 - CRA/FIO regulatory language: often identifies beneficiary and mechanism but usually does not satisfy Tier 1 issuer-action requirements.
 - Affordable-housing language: still mixes genuine housing access, program definitions, loan categories, property development, sale/accounting, and community-program language.

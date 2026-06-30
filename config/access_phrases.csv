@@ -41,15 +41,15 @@ expand homeownership,homeownership access,word_phrase,false,medium,May refer to 
 expanding homeownership,homeownership access,word_phrase,false,medium,May refer to policy or market context rather than company action.
 affordable homeownership,homeownership access,word_phrase,false,medium,May refer to public-policy or housing-market context.
 access to affordable housing,homeownership access,word_phrase,false,medium,May refer to rental housing or community investment.
-affordable housing,homeownership access,word_phrase,false,high,Broad housing phrase; may not indicate access expansion.
+affordable housing,homeownership access,word_phrase,false,high,Broad housing phrase; may not indicate access-oriented disclosure.
 access to housing,homeownership access,word_phrase,false,medium,May refer to rental housing or community investment.
 housing access,homeownership access,word_phrase,false,medium,May refer to rental housing or community investment.
 access to investing,retail access to investing,word_phrase,false,medium,May refer to platform access or educational content.
 investing access,retail access to investing,word_phrase,false,medium,May refer to platform access or educational content.
 retail access,retail access to investing,word_phrase,false,high,Broad phrase; may refer to stores or distribution channels.
-retail investors,retail access to investing,word_phrase,false,high,Common securities-law phrase; not necessarily access expansion.
-individual investors,retail access to investing,word_phrase,false,high,Common investor-relations phrase; not necessarily access expansion.
-fractional share,retail access to investing,word_phrase,true,medium,May refer to product mechanics without access-expansion framing.
+retail investors,retail access to investing,word_phrase,false,high,Common securities-law phrase; not necessarily access-oriented disclosure.
+individual investors,retail access to investing,word_phrase,false,high,Common investor-relations phrase; not necessarily access-oriented disclosure.
+fractional share,retail access to investing,word_phrase,true,medium,May refer to product mechanics without access-oriented disclosure framing.
 access to investment,retail access to investing,word_phrase,true,medium,May refer to fund or capital-allocation access.
 institutional-grade,institutional-grade access for individuals,word_phrase,false,high,Broad quality phrase; may describe internal services.
 institutional grade,institutional-grade access for individuals,word_phrase,false,high,Broad quality phrase; may describe internal services.

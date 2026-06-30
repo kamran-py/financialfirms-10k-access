@@ -62,7 +62,7 @@ A filing is accepted for the conservative treatment only when the excerpt suppor
 
 ## Main Failure Modes
 
-- FHLB membership/liquidity and required affordable-housing-program language often looks like housing access but is regulatory or institutional background rather than issuer access-expansion narrative.
+- FHLB membership/liquidity and required affordable-housing-program language often looks like housing access but is regulatory or institutional background rather than issuer access-oriented disclosure signal.
 - CFPB/FIO/agency language often describes regulator authority, not management action by the filing firm.
 - Generic `market access` often means trading infrastructure, issuer geographic expansion, competitor scale, or capital resources rather than beneficiary access.
 - Low-income housing partnerships are mixed: rows were accepted only when the excerpt says the partnerships supply funds for construction/operation of affordable housing for lower-income beneficiaries.

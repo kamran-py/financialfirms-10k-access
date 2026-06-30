@@ -37,7 +37,7 @@ Do not infer this label from the matched phrase alone. The excerpt must support 
 
 ### `generic_marketing`
 
-Use when the wording is promotional or mission-oriented but the excerpt does not provide enough context to determine whether the claim concerns financial access expansion.
+Use when the wording is promotional or mission-oriented but the excerpt does not provide enough context to determine whether the claim concerns financial access-oriented disclosure.
 
 Typical cases:
 
@@ -68,7 +68,7 @@ Typical cases:
 
 ### `operational_access_or_platform_language`
 
-Use when the phrase concerns issuer operations, internal systems, distribution channels, counterparties, infrastructure, or platform functionality rather than end-user financial access expansion.
+Use when the phrase concerns issuer operations, internal systems, distribution channels, counterparties, infrastructure, or platform functionality rather than end-user financial access-oriented disclosure.
 
 Typical cases:
 
@@ -78,7 +78,7 @@ Typical cases:
 
 ### `ambiguous`
 
-Use when the excerpt plausibly relates to access expansion but lacks enough context to distinguish it from marketing, risk disclosure, operational platform language, or unrelated use.
+Use when the excerpt plausibly relates to access-oriented disclosure but lacks enough context to distinguish it from marketing, risk disclosure, operational platform language, or unrelated use.
 
 Typical cases:
 
@@ -88,13 +88,13 @@ Typical cases:
 
 ### `false_positive`
 
-Use when the raw phrase match is clearly not about access expansion and fits none of the more specific negative labels above.
+Use when the raw phrase match is clearly not about access-oriented disclosure and fits none of the more specific negative labels above.
 
 Typical cases:
 
 - Phrase match is a lexical accident.
 - The matched text is part of a list, heading, table artifact, boilerplate, or malformed extraction with no interpretable context.
-- The phrase is negated or refers to an absence of access-related activity without any access-expansion claim.
+- The phrase is negated or refers to an absence of access-related activity without any access-oriented disclosure claim.
 
 ## Confidence
 
@@ -119,7 +119,7 @@ Use `reviewer_notes` to record the reason for the label, especially for:
 ## Guardrails
 
 - Raw phrase hits remain separate from interpreted labels.
-- A true-positive label means the excerpt contains access-expansion wording; it does not prove actual product availability, customer impact, management intent, or later stock-performance implications.
+- A true-positive label means the excerpt contains access-oriented disclosure wording; it does not prove actual product availability, customer impact, management intent, or later stock-performance implications.
 - Reviewers must not use stock returns, later news, later litigation, later product outcomes, or later firm events while coding text.
 - Absence of a raw hit is not evidence that a filing lacks access-related strategy or language.
 - No conclusion should use the word `causes` unless a separately justified identification strategy has been approved.

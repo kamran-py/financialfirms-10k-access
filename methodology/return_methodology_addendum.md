@@ -123,11 +123,11 @@ Prohibited causal language:
 
 Acceptable example:
 
-- Filings with validated Tier 1 access-expansion language were followed by different benchmark-adjusted returns than comparison filings, conditional on filing year and available controls.
+- Filings with validated Tier 1 access-oriented disclosure language were followed by different benchmark-adjusted returns than comparison filings, conditional on filing year and available controls.
 
 Unacceptable example:
 
-- Access-expansion language caused firms to underperform.
+- Access-oriented disclosure language caused firms to underperform.
 
 ## Required Before Return Analysis
 

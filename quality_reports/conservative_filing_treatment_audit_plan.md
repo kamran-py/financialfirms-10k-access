@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This plan defines the manual audit for conservative filing-level treatment candidates. The audit validates whether filing-level evidence supports candidate access-expansion treatment status under `config/conservative_filing_treatment_rules_v1.md`.
+This plan defines the manual audit for conservative filing-level treatment candidates. The audit validates whether filing-level evidence supports candidate access-oriented disclosure treatment status under `config/conservative_filing_treatment_rules_v1.md`.
 
 ## Guardrails
 

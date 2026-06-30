@@ -37,7 +37,7 @@ Variants:
 - Excluding likely high-false-positive categories.
 - Category-specific raw-hit indicators.
 
-Raw-hit treatment is a dictionary exposure measure only. It does not imply that the filing substantively describes access expansion.
+Raw-hit treatment is a dictionary exposure measure only. It does not imply that the filing substantively describes access-oriented disclosure.
 
 ### Classified True-Positive Treatment
 
@@ -302,7 +302,7 @@ Additional assumptions needed for causal interpretation:
 ## Claims Not Allowed
 
 - No causal claims without a separately justified identification strategy.
-- No claims about management intent, sincerity, operational effectiveness, customer impact, or real-world access expansion beyond what the filing text states.
+- No claims about management intent, sincerity, operational effectiveness, customer impact, or real-world access-related activity beyond what the filing text states.
 - No claim that raw phrase hits are substantively positive without classification or audit evidence.
 - No claim that missing or right-censored return windows are complete observations.
 - No claim that absence of a raw phrase hit means absence of access-related strategy or language.

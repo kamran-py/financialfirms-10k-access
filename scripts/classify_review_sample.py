@@ -314,7 +314,7 @@ def classify_codex_assisted(row: dict[str, str]) -> Decision:
             return Decision("operational_access_or_platform_language", "high", "Affordable-housing reference appears in tax-credit, partnership, accounting, portfolio, or commitments context.")
         if beneficiary and mechanism and has_any(text, ["loan", "lending", "mortgage", "financing", "homeownership", "community", "low- and moderate-income", "lmi", "families"]):
             return Decision("true_positive_access_expansion", "medium", "Affordable-housing wording is tied to financing or housing access for external beneficiaries.")
-        return Decision("ambiguous", "low", "Affordable-housing context lacks enough detail to distinguish access expansion from investment/accounting exposure.")
+        return Decision("ambiguous", "low", "Affordable-housing context lacks enough detail to distinguish access-oriented disclosure from investment/accounting exposure.")
 
     if phrase == "institutional quality":
         if has_any(text, ["property", "properties", "real estate", "office", "multifamily", "assets", "portfolio", "tenant", "leasing"]):
@@ -377,7 +377,7 @@ def classify_codex_assisted(row: dict[str, str]) -> Decision:
             return Decision("false_positive", "medium", "Retail/individual investor wording appears as generic securities, investor-relations, or market-participant language.")
         if beneficiary and mechanism:
             return Decision("true_positive_access_expansion", "medium", "Investing-access wording identifies retail or individual investor beneficiaries.")
-        return Decision("ambiguous", "low", "Investing-access wording lacks clear access-expansion context.")
+        return Decision("ambiguous", "low", "Investing-access wording lacks clear access-oriented disclosure context.")
 
     if category == "lower barriers / level playing field":
         if beneficiary and mechanism:

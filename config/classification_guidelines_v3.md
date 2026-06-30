@@ -53,7 +53,7 @@ Do not use `generic_marketing` for explicit mission statements that clearly name
 
 ### `risk_disclosure_only`
 
-Use when the phrase appears in risk, cautionary, liquidity, funding, litigation, regulatory-risk, macroeconomic-risk, or adverse-scenario language and does not describe external financial-access expansion.
+Use when the phrase appears in risk, cautionary, liquidity, funding, litigation, regulatory-risk, macroeconomic-risk, or adverse-scenario language and does not describe external financial-access activity.
 
 `access to credit` in risk sections defaults to `risk_disclosure_only` unless the beneficiary is clearly consumers, borrowers, members, customers, LMI communities, underserved populations, or similar external users.
 
@@ -65,15 +65,15 @@ Generic ESG, HR, healthcare, sports, AI innovation, or internal inclusion langua
 
 ### `operational_access_or_platform_language`
 
-Use when the phrase concerns issuer operations, internal systems, infrastructure, platform quality, API quality, custodian quality, advisor analytics, analyst processes, data access, exchange connectivity, distribution channels, regulatory permissions, partner access, or the issuer's own financing rather than external financial-access expansion.
+Use when the phrase concerns issuer operations, internal systems, infrastructure, platform quality, API quality, custodian quality, advisor analytics, analyst processes, data access, exchange connectivity, distribution channels, regulatory permissions, partner access, or the issuer's own financing rather than external financial-access activity.
 
 ### `ambiguous`
 
-Use when the excerpt plausibly relates to access expansion but lacks enough context to determine whether the beneficiary and financial-access mechanism are both present.
+Use when the excerpt plausibly relates to access-oriented disclosure but lacks enough context to determine whether the beneficiary and financial-access mechanism are both present.
 
 ### `false_positive`
 
-Use when the phrase match is clearly not access expansion and fits none of the more specific negative labels. This includes table artifacts, headings, boilerplate, malformed extraction, stock mechanics, property-quality descriptions, and lexical accidents.
+Use when the phrase match is clearly not access-oriented disclosure and fits none of the more specific negative labels. This includes table artifacts, headings, boilerplate, malformed extraction, stock mechanics, property-quality descriptions, and lexical accidents.
 
 ## Audit Lessons Incorporated In Version 3
 
@@ -153,6 +153,6 @@ Use `medium` rather than `high` for CRA/regulatory positives unless issuer actio
 - Preserve raw hits separately from interpreted labels.
 - Preserve manual calibration labels separately from manual audit labels and Codex-assisted labels.
 - Future treatment variables must be auditable back to `hit_id`, accession number, section, phrase, excerpt, label, confidence, and reviewer/source.
-- A true-positive label means only that the excerpt contains validated access-expansion wording. It does not prove actual product availability, customer impact, management intent, or future stock-performance implications.
+- A true-positive label means only that the excerpt contains validated access-oriented disclosure wording. It does not prove actual product availability, customer impact, management intent, or future stock-performance implications.
 - Treatment construction is not finalized until post-revision classification quality is checked.
 - No return analysis should start until treatment classification is validated.

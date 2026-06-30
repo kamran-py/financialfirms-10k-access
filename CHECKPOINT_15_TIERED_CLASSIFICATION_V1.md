@@ -72,7 +72,7 @@ Additional filing-level support diagnostics:
 | consumer credit access | 678 |
 | affordable housing / homeownership access | 378 |
 | smaller-issuer capital-market access | 248 |
-| generic/other access-expansion | 36 |
+| generic/other access-oriented disclosure | 36 |
 | payments / money movement / SMB commerce access | 36 |
 | fee / cost / minimum-reduction framing | 4 |
 | insurance / benefits access | 2 |
@@ -131,7 +131,7 @@ Recommended audit design:
 
 ## Remaining Classification Risks
 
-- Tier 1 is deliberately conservative and may under-call valid access-expansion language.
+- Tier 1 is deliberately conservative and may under-call valid access-oriented disclosure language.
 - Tier 2 includes medium-confidence and regulatory/CRA cases that require validation before any robustness use.
 - High-risk phrase families can still contain false positives despite stricter defaults.
 - Narrative subcategories with low support may need aggregation or exclusion before treatment construction.

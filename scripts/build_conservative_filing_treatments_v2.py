@@ -1,4 +1,4 @@
-"""Build V2 conservative filing-level access-expansion candidates.
+"""Build V2 conservative filing-level access-oriented disclosure candidates.
 
 V2 is a precision-oriented revision after the V1 filing-level audit failed
 the conservative treatment gate. It uses only local extracted text artifacts

@@ -14,7 +14,7 @@ This repository is designed to document the workflow and publish code, checkpoin
 2. Download 10-K filings from SEC EDGAR.
 3. Extract Item 1, Item 1A, and Item 7.
 4. Run phrase matching.
-5. Classify and audit candidate access-expansion language.
+5. Classify and audit candidate access-oriented disclosure language.
 6. Construct validated conservative filing-level treatment.
 7. Prepare WRDS/CRSP linking and return-window request files.
 8. Import WRDS/CRSP links and daily return data.

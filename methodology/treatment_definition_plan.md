@@ -83,7 +83,7 @@ Use:
 
 ### Tier 3: Exploratory Raw-Signal Treatment
 
-Tier 3 captures broad text exposure but is not evidence of substantive access expansion.
+Tier 3 captures broad text exposure but is not evidence of substantive access-oriented disclosure.
 
 Definition:
 
@@ -100,7 +100,7 @@ Use:
 
 Exclusions:
 
-- Tier 3 cannot be described as access-expansion evidence.
+- Tier 3 cannot be described as access-oriented disclosure evidence.
 - Tier 3 cannot be used as the main treatment if validated classification is available.
 
 ## High-Risk Phrase Handling

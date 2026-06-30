@@ -1,4 +1,4 @@
-"""Build V3 conservative filing-level access-expansion candidates.
+"""Build V3 conservative filing-level access-oriented disclosure candidates.
 
 V3 tightens V2 based on the CHECKPOINT_20 audit. It remains a candidate
 construction step only: no prices, returns, SEC requests, or empirical claims.

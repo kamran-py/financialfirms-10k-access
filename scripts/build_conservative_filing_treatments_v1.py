@@ -1,4 +1,4 @@
-"""Build conservative filing-level access-expansion treatment candidates.
+"""Build conservative filing-level access-oriented disclosure treatment candidates.
 
 This script uses only local extracted text artifacts:
 - data/extracted/phrase_hits.csv
@@ -199,7 +199,7 @@ NARRATIVE_PRIORITY = {
     "insurance / benefits access": 7,
     "smaller-issuer capital-market access": 8,
     "fee / cost / minimum-reduction framing": 9,
-    "generic/other access-expansion": 10,
+    "generic/other access-oriented disclosure": 10,
 }
 
 
@@ -301,7 +301,7 @@ def infer_democratization_subcategory(text: str) -> str:
         return "payments / money movement / SMB commerce access"
     if any(term in lower for term in ["invest", "brokerage", "trading", "financial market"]):
         return "retail investing / brokerage democratization"
-    return "generic/other access-expansion"
+    return "generic/other access-oriented disclosure"
 
 
 def infer_unbanked_subcategory(text: str) -> str:
@@ -840,7 +840,7 @@ def build_audit_plan(audit_rows: list[dict[str, str]], candidate_rows: list[dict
         "",
         "## Purpose",
         "",
-        "This plan defines the manual audit for conservative filing-level treatment candidates. The audit validates whether filing-level evidence supports candidate access-expansion treatment status under `config/conservative_filing_treatment_rules_v1.md`.",
+        "This plan defines the manual audit for conservative filing-level treatment candidates. The audit validates whether filing-level evidence supports candidate access-oriented disclosure treatment status under `config/conservative_filing_treatment_rules_v1.md`.",
         "",
         "## Guardrails",
         "",

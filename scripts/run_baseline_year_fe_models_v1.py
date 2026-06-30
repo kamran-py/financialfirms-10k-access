@@ -338,7 +338,7 @@ def main():
             "",
             "## Interpretation Boundary",
             "",
-            "These estimates describe whether validated conservative access-expansion filings are associated with different later benchmark-adjusted returns within filing-year cells. They do not identify a causal effect of the narrative, management policy, or any access-expansion action.",
+            "These estimates describe whether validated conservative access-oriented disclosure filings are associated with different later benchmark-adjusted returns within filing-year cells. They do not identify a causal effect of the narrative, management policy, or any access-oriented disclosure action.",
             "",
             "## Outputs",
             "",

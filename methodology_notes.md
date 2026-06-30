@@ -9,12 +9,12 @@ The project also does not infer management intent. Statements should be limited 
 ## Claims We Are Not Allowed To Make
 
 - No causal claims about filing language and subsequent stock performance without a separate identification strategy.
-- No claims about management intent, sincerity, strategic priority, or actual access expansion unless the filing text directly supports the statement.
+- No claims about management intent, sincerity, strategic priority, or actual access-related activity unless the filing text directly supports the statement.
 - No claims about 1-, 3-, or 5-year returns when the corresponding window is not observable as of 2026-06-27.
 - No claims that right-censored windows are equivalent to zero returns, ordinary missingness, or complete observations.
 - No claims that a current index, current exchange, or current ticker universe represents the historical US-listed financial and fintech universe.
 - No claims that adjusted price data are reliable until corporate actions, stale prices, missing observations, and extreme returns have been checked.
-- No claims that raw phrase hits are substantively about access expansion without classification or manual audit evidence.
+- No claims that raw phrase hits are substantively about access-oriented disclosure without classification or manual audit evidence.
 - No claims based on selected favorable phrases, sections, horizons, benchmarks, or subgroups unless the selection was pre-specified or labeled exploratory.
 
 ## Minimum Evidence Required Before Interpretation
@@ -26,7 +26,7 @@ Interpretive writeups require the following minimum evidence:
 - Filing-level metadata including CIK, accession number, EDGAR filing date, acceptance datetime where available, fiscal year end or report period, filing URL, and document URL.
 - Extraction status and section-parsing status for every filing, including failures and low-confidence sections.
 - Raw phrase hits linked to exact phrase, excerpt, section, taxonomy version, matcher version, filing URL, and accession number.
-- A validated classification layer that distinguishes substantive access-expansion use from false positives, generic language, negative context, and ambiguous cases.
+- A validated classification layer that distinguishes substantive access-oriented disclosure use from false positives, generic language, negative context, and ambiguous cases.
 - Return-window status for every filing-window pair, including complete, right-censored, delisted, merged, bankrupt, unresolved security link, missing start price, and missing end price.
 - Price-source provenance and adjusted-price quality checks.
 - Pre-specified market and financial-sector benchmarks with dated source metadata.
@@ -95,7 +95,7 @@ Interpreted labels should never overwrite raw matches. Multiple classification r
 - confidence score or equivalent uncertainty field
 - classification status and reason code
 
-The codebook must include at least one negative or non-substantive label and at least one ambiguous label. A phrase should not be coded as access expansion merely because it contains a dictionary phrase.
+The codebook must include at least one negative or non-substantive label and at least one ambiguous label. A phrase should not be coded as access-oriented disclosure merely because it contains a dictionary phrase.
 
 ## Proposed Phrase Families
 
@@ -231,7 +231,7 @@ Text measurement bias:
 
 Semantic overreach:
 
-- Do not translate disclosure wording into claims about real-world access expansion without external evidence.
+- Do not translate disclosure wording into claims about real-world access-related activity without external evidence.
 - Do not infer managerial intent from access-related wording.
 - Use "raw access-related phrase hit" for dictionary matches and reserve stronger labels for validated interpreted classifications.
 
