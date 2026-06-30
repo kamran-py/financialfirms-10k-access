@@ -1,0 +1,17 @@
+WRDS CRSP Return Pull Manifest V1
+
+Guardrails:
+- Raw WRDS daily returns pulled only for windows marked ready_for_wrds_daily_return_request.
+- No event-window returns computed.
+- No empirical claims made.
+
+Input request file: wrds_crsp_return_windows_linked_request_v1.csv
+Ready windows: 8,291
+Unique PERMNOs: 520
+Min query date: 2015-02-05
+Max query date: 2024-12-31
+Daily return rows: 1,105,019
+Delisting return rows: 520
+Benchmark rows: 2,493
+Daily output: wrds_crsp_daily_returns_raw_v1.csv
+Benchmark output: wrds_crsp_market_benchmark_raw_v1.csv

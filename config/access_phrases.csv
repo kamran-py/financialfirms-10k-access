@@ -1,0 +1,89 @@
+phrase,category,match_type,include_plural,false_positive_risk,notes
+democratize finance,democratized access,word_phrase,false,medium,May appear in aspirational or third-party descriptions.
+democratizing finance,democratized access,word_phrase,false,medium,May appear in aspirational or third-party descriptions.
+democratized finance,democratized access,word_phrase,false,medium,May appear in historical or generic descriptions.
+democratize financial services,democratized access,word_phrase,false,medium,May appear in aspirational or third-party descriptions.
+democratizing financial services,democratized access,word_phrase,false,medium,May appear in aspirational or third-party descriptions.
+democratized financial services,democratized access,word_phrase,false,medium,May appear in historical or generic descriptions.
+democratize access,democratized access,word_phrase,false,medium,May be generic without a financial-product object.
+democratizing access,democratized access,word_phrase,false,medium,May be generic without a financial-product object.
+democratized access,democratized access,word_phrase,false,medium,May be generic without a financial-product object.
+financial inclusion,financial inclusion,word_phrase,false,low,Core inclusion phrase.
+inclusive finance,financial inclusion,word_phrase,false,low,Core inclusion phrase.
+inclusive financial system,financial inclusion,word_phrase,false,low,Core inclusion phrase.
+promote financial inclusion,financial inclusion,word_phrase,false,low,Core inclusion phrase.
+advance financial inclusion,financial inclusion,word_phrase,false,low,Core inclusion phrase.
+improve financial inclusion,financial inclusion,word_phrase,false,low,Core inclusion phrase.
+underserved,underserved / underbanked / unbanked,word_phrase,false,high,Single-word term; may refer to non-financial markets or generic populations.
+underserved communities,underserved / underbanked / unbanked,word_phrase,false,medium,May be broad community-development language.
+underserved consumers,underserved / underbanked / unbanked,word_phrase,false,medium,May be broad consumer language.
+underserved borrowers,underserved / underbanked / unbanked,word_phrase,false,medium,More directly related to credit access.
+underserved populations,underserved / underbanked / unbanked,word_phrase,false,medium,May be broad community-development language.
+underserved markets,underserved / underbanked / unbanked,word_phrase,false,medium,May refer to geographic or product markets.
+underbanked,underserved / underbanked / unbanked,word_phrase,false,low,Core banking-access phrase.
+unbanked,underserved / underbanked / unbanked,word_phrase,false,low,Core banking-access phrase.
+underbanked consumers,underserved / underbanked / unbanked,word_phrase,false,low,Core banking-access phrase.
+unbanked consumers,underserved / underbanked / unbanked,word_phrase,false,low,Core banking-access phrase.
+underbanked populations,underserved / underbanked / unbanked,word_phrase,false,low,Core banking-access phrase.
+unbanked populations,underserved / underbanked / unbanked,word_phrase,false,low,Core banking-access phrase.
+access to credit,expanded access to credit,word_phrase,false,medium,May describe restrictions or risk rather than expansion.
+credit access,expanded access to credit,word_phrase,false,medium,May describe restrictions or risk rather than expansion.
+expand access to credit,expanded access to credit,word_phrase,false,low,Direct expansion wording.
+expanded access to credit,expanded access to credit,word_phrase,false,low,Direct expansion wording.
+expanding access to credit,expanded access to credit,word_phrase,false,low,Direct expansion wording.
+broaden access to credit,expanded access to credit,word_phrase,false,low,Direct expansion wording.
+broader access to credit,expanded access to credit,word_phrase,false,low,Direct expansion wording.
+affordable credit,expanded access to credit,word_phrase,false,medium,May refer to credit quality or pricing context.
+access to affordable credit,expanded access to credit,word_phrase,false,low,Direct expansion wording.
+homeownership access,homeownership access,word_phrase,false,low,Core homeownership-access phrase.
+access to homeownership,homeownership access,word_phrase,false,low,Core homeownership-access phrase.
+expand homeownership,homeownership access,word_phrase,false,medium,May refer to policy or market context rather than company action.
+expanding homeownership,homeownership access,word_phrase,false,medium,May refer to policy or market context rather than company action.
+affordable homeownership,homeownership access,word_phrase,false,medium,May refer to public-policy or housing-market context.
+access to affordable housing,homeownership access,word_phrase,false,medium,May refer to rental housing or community investment.
+affordable housing,homeownership access,word_phrase,false,high,Broad housing phrase; may not indicate access expansion.
+access to housing,homeownership access,word_phrase,false,medium,May refer to rental housing or community investment.
+housing access,homeownership access,word_phrase,false,medium,May refer to rental housing or community investment.
+access to investing,retail access to investing,word_phrase,false,medium,May refer to platform access or educational content.
+investing access,retail access to investing,word_phrase,false,medium,May refer to platform access or educational content.
+retail access,retail access to investing,word_phrase,false,high,Broad phrase; may refer to stores or distribution channels.
+retail investors,retail access to investing,word_phrase,false,high,Common securities-law phrase; not necessarily access expansion.
+individual investors,retail access to investing,word_phrase,false,high,Common investor-relations phrase; not necessarily access expansion.
+fractional share,retail access to investing,word_phrase,true,medium,May refer to product mechanics without access-expansion framing.
+access to investment,retail access to investing,word_phrase,true,medium,May refer to fund or capital-allocation access.
+institutional-grade,institutional-grade access for individuals,word_phrase,false,high,Broad quality phrase; may describe internal services.
+institutional grade,institutional-grade access for individuals,word_phrase,false,high,Broad quality phrase; may describe internal services.
+institutional quality,institutional-grade access for individuals,word_phrase,false,high,Broad quality phrase; may describe assets or controls.
+previously available only to institutions,institutional-grade access for individuals,word_phrase,false,low,Direct individual-access framing.
+traditionally available only to institutions,institutional-grade access for individuals,word_phrase,false,low,Direct individual-access framing.
+institutional caliber,institutional-grade access for individuals,word_phrase,false,high,Broad quality phrase; may describe internal services.
+institutional-level,institutional-grade access for individuals,word_phrase,false,high,Broad quality phrase; may describe internal services.
+institutional level,institutional-grade access for individuals,word_phrase,false,high,Broad quality phrase; may describe internal services.
+lower barriers,lower barriers / level playing field,word_phrase,true,medium,May refer to operational or regulatory barriers.
+lowering barriers,lower barriers / level playing field,word_phrase,false,medium,May refer to operational or regulatory barriers.
+reduce barriers,lower barriers / level playing field,word_phrase,true,medium,May refer to operational or regulatory barriers.
+reducing barriers,lower barriers / level playing field,word_phrase,false,medium,May refer to operational or regulatory barriers.
+remove barriers,lower barriers / level playing field,word_phrase,true,medium,May refer to operational or regulatory barriers.
+removing barriers,lower barriers / level playing field,word_phrase,false,medium,May refer to operational or regulatory barriers.
+eliminate barriers,lower barriers / level playing field,word_phrase,true,medium,May refer to operational or regulatory barriers.
+eliminating barriers,lower barriers / level playing field,word_phrase,false,medium,May refer to operational or regulatory barriers.
+level playing field,lower barriers / level playing field,word_phrase,false,medium,May refer to competition rather than customer access.
+lower the barriers,lower barriers / level playing field,word_phrase,false,medium,May refer to operational or regulatory barriers.
+reduced barriers,lower barriers / level playing field,word_phrase,false,medium,May refer to operational or regulatory barriers.
+affordable financial products,affordable financial products,word_phrase,false,low,Core affordability phrase.
+affordable financial services,affordable financial products,word_phrase,false,low,Core affordability phrase.
+low-cost financial products,affordable financial products,word_phrase,false,medium,Hyphenated cost phrase.
+low cost financial products,affordable financial products,word_phrase,false,medium,Unhyphenated cost phrase.
+low-cost financial services,affordable financial products,word_phrase,false,medium,Hyphenated cost phrase.
+low cost financial services,affordable financial products,word_phrase,false,medium,Unhyphenated cost phrase.
+affordable banking,affordable financial products,word_phrase,false,medium,May refer to general banking cost.
+affordable loans,affordable financial products,word_phrase,false,medium,May refer to loan pricing rather than access.
+broader market participation,broader market participation,word_phrase,false,medium,May refer to capital markets or business markets.
+expand market participation,broader market participation,word_phrase,false,medium,May refer to capital markets or business markets.
+expanded market participation,broader market participation,word_phrase,false,medium,May refer to capital markets or business markets.
+expanding market participation,broader market participation,word_phrase,false,medium,May refer to capital markets or business markets.
+access to markets,broader market participation,word_phrase,false,high,Common broad phrase; may refer to distribution or capital markets.
+market access,broader market participation,word_phrase,false,high,Common broad phrase; may refer to distribution or regulatory access.
+capital markets access,broader market participation,word_phrase,false,high,Common broad phrase; may refer to issuer financing.
+broaden participation,broader market participation,word_phrase,false,medium,May be generic without financial object.
+broader participation,broader market participation,word_phrase,false,medium,May be generic without financial object.

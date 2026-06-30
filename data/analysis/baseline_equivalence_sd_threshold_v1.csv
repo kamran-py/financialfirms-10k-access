@@ -1,0 +1,4 @@
+threshold_name,horizon_years,source_outcome,n,sd,multiplier,delta,ci90_low,ci90_high,equivalence_passes_tost_interval_rule,note
+medium_effect_half_sd_primary_winsorized_1y,1,outcome_primary_excess_vwretd_winsor_p01_p99,3718,0.3140239897,0.50,0.1570119948,-0.0478861160,0.0666229914,yes,Preferred equivalence threshold for the primary 1-year outcome.
+small_effect_point_two_sd_primary_winsorized_1y,1,outcome_primary_excess_vwretd_winsor_p01_p99,3718,0.3140239897,0.20,0.0628047979,-0.0478861160,0.0666229914,no,Stricter sensitivity anchor; not the preferred medium-effect threshold.
+medium_effect_half_sd_raw_1y_reference,1,outcome_primary_excess_vwretd_raw,3718,1.5907121502,0.50,0.7953560751,-0.0478861160,0.0666229914,yes,Reference only because raw 1-year returns are highly dispersed.

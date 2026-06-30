@@ -1,0 +1,10 @@
+horizon_years,threshold_name,delta,ci90_low,ci90_high,equivalence_passes_tost_interval_rule,threshold_justification,interpretation_note
+1,absolute_10pp,0.1000000000,-0.0478861160,0.0666229914,yes,External economic threshold: +/- 10 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold
+1,absolute_15pp,0.1500000000,-0.0478861160,0.0666229914,yes,External economic threshold: +/- 15 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold
+1,absolute_25pp,0.2500000000,-0.0478861160,0.0666229914,yes,External economic threshold: +/- 25 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold
+3,absolute_10pp,0.1000000000,-0.1557438513,0.2366376303,no,External economic threshold: +/- 10 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold
+3,absolute_15pp,0.1500000000,-0.1557438513,0.2366376303,no,External economic threshold: +/- 15 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold
+3,absolute_25pp,0.2500000000,-0.1557438513,0.2366376303,yes,External economic threshold: +/- 25 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold
+5,absolute_10pp,0.1000000000,-0.4231278187,0.8053338937,no,External economic threshold: +/- 10 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold
+5,absolute_15pp,0.1500000000,-0.4231278187,0.8053338937,no,External economic threshold: +/- 15 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold
+5,absolute_25pp,0.2500000000,-0.4231278187,0.8053338937,no,External economic threshold: +/- 25 percentage points cumulative benchmark-adjusted return.,diagnostic_equivalence_only_requires_researcher_approved_threshold

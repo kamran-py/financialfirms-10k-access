@@ -1,0 +1,40 @@
+# Python / local runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Raw, row-level, licensed, and restricted data: ignore all data by default.
+data/**
+
+# Keep data policy and aggregate/public-safe analysis tables.
+!data/
+!data/README.md
+!data/analysis/
+!data/analysis/baseline_*.csv
+!data/analysis/model_sample_support_v1.csv
+!data/analysis/return_winsorization_thresholds_v1.csv
+
+# Explicitly keep row-level analysis files excluded even though data/analysis is visible.
+data/analysis/regression_modeling_dataset_v1.csv
+data/analysis/return_analysis_panel_v1.csv
+data/analysis/return_outlier_tail_diagnostics_v1.csv
+
+# Local WRDS helper output
+web_query_output/
+*.sas7bdat
+*.sqlite
+*.db
+
+# Logs and transient files
+*.log
+*.tmp

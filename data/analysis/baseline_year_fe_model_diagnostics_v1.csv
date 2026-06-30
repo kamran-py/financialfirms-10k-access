@@ -1,0 +1,4 @@
+model_id,horizon_years,input_rows_for_horizon,estimation_rows,dropped_rows,dropped_reason_counts,treated_rows,control_rows,unique_issuers,filing_years,k_parameters,matrix_rank,used_pseudoinverse,r_squared,mean_outcome
+baseline_year_fe_h1,1,3718,3718,0,,138,3580,516,"2015,2016,2017,2018,2019,2020,2021,2022,2023",10,10,no,0.1081883375,-0.0296286932
+baseline_year_fe_h3,3,2698,2698,0,,93,2605,450,"2015,2016,2017,2018,2019,2020,2021",8,8,no,0.0880839255,-0.0509725325
+baseline_year_fe_h5,5,1822,1822,0,,63,1759,400,"2015,2016,2017,2018,2019",6,6,no,0.0289515095,-0.1790666262

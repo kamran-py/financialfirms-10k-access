@@ -1,0 +1,13 @@
+horizon_years,footnote_type,footnote_text
+1,sample,"Horizon 1y uses 3718 analysis-ready issuer-filing-window observations, including 138 treated and 3580 control observations."
+1,clusters,Standard errors are issuer-clustered across 516 issuers; treated observations span 44 treated issuer clusters.
+1,winsorization,"The primary outcome is winsorized within horizon at p01/p99; for 1y, the p01/p99 thresholds are -0.8479286600 and 1.1130019511."
+1,missingness,Non-analysis-ready rows were retained upstream with explicit statuses: not_computed_missing_issuer_return_inside_window: 7; not_computed_raw_coverage_incomplete: 7.
+3,sample,"Horizon 3y uses 2698 analysis-ready issuer-filing-window observations, including 93 treated and 2605 control observations."
+3,clusters,Standard errors are issuer-clustered across 450 issuers; treated observations span 24 treated issuer clusters.
+3,winsorization,"The primary outcome is winsorized within horizon at p01/p99; for 3y, the p01/p99 thresholds are -1.2502939409 and 2.4207979388."
+3,missingness,Non-analysis-ready rows were retained upstream with explicit statuses: not_computed_missing_issuer_return_inside_window: 10; not_computed_raw_coverage_incomplete: 10.
+5,sample,"Horizon 5y uses 1822 analysis-ready issuer-filing-window observations, including 63 treated and 1759 control observations."
+5,clusters,Standard errors are issuer-clustered across 400 issuers; treated observations span 19 treated issuer clusters.
+5,winsorization,"The primary outcome is winsorized within horizon at p01/p99; for 5y, the p01/p99 thresholds are -1.7230815285 and 4.2679141550."
+5,missingness,Non-analysis-ready rows were retained upstream with explicit statuses: not_computed_missing_issuer_return_inside_window: 9; not_computed_raw_coverage_incomplete: 10.

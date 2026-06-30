@@ -1,0 +1,4 @@
+horizon_years,bootstrap_reps_requested,bootstrap_reps_used,seed,estimate,cluster_se_cr1,t_stat_cr1,wild_cluster_p_value,wild_cluster_ci95_low_percentile_t,wild_cluster_ci95_high_percentile_t,clusters_total,inference_note
+1,999,999,20260630,0.0093684377,0.0348082971,0.2691438108,0.7780000000,-0.0636936640,0.0791195454,516,wild_cluster_bootstrap_rademacher_restricted_null
+3,999,999,20260632,0.0404468895,0.1192755012,0.3391047544,0.7650000000,-0.1979461271,0.2850455216,450,wild_cluster_bootstrap_rademacher_restricted_null
+5,999,999,20260634,0.1911030375,0.3734258454,0.5117563229,0.8140000000,-0.4379887210,0.8591617856,400,wild_cluster_bootstrap_rademacher_restricted_null

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Access-Expansion Narratives in Financial-Firm 10-Ks"
+authors:
+  - family-names: "Ahmed"
+    given-names: "Kamran"
+year: 2026
+repository-code: "https://github.com/kamran-py/financialfirms-10k-access"
+license: "MIT"
