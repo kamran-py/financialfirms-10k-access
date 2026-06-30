@@ -1,6 +1,6 @@
 # Project History and Checkpoint Summary
 
-This document summarizes the main design choices, validation gates, and current findings.
+This document summarizes the main design choices, validation gates, and current findings. The project should be read as a pilot research archive unless and until the sample universe is rebuilt from point-in-time market data.
 
 ## 1. Research Question
 
@@ -186,8 +186,11 @@ This should be framed as a cautious observational result, not as a causal claim.
 
 Recommended next stages:
 
+- Rebuild the firm universe from point-in-time CRSP/Compustat/security-master data.
 - Add CRSP delisting-code and corporate-action data to classify M&A versus failed/delisted attrition.
 - Run 9,999-replication wild-cluster bootstrap for final tables.
 - Consider Webb weights for 3-year and 5-year few-treated-cluster inference.
 - Add factor-model or matched-firm benchmark robustness.
 - Add point-in-time accounting controls only through a separate validated data-import checkpoint.
+
+Without the point-in-time universe rebuild, this project should not be treated as a publication-ready empirical finance paper.

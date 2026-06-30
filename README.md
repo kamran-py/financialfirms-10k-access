@@ -1,12 +1,14 @@
 # Access-Expansion Narratives in Financial-Firm 10-Ks
 
-This repository contains a working-paper research pipeline studying whether validated “access-expansion” narratives in U.S. financial and fintech-related firms’ 10-K filings are associated with subsequent stock performance.
+This repository contains a pilot research pipeline studying whether validated “access-expansion” narratives in U.S. financial and fintech-related firms’ 10-K filings are associated with subsequent stock performance.
 
 The project began from a deliberately cautious research question:
 
 > Can we identify substantive access-expansion language in 10-K filings and evaluate subsequent 1-, 3-, and 5-year stock performance where those return windows are observable?
 
 The current evidence is observational. The project does **not** claim that disclosure language causes later returns.
+
+**Status:** this is a pilot research archive, not a publication-ready empirical finance paper. The main limitation is sample construction: the current firm universe was built from a current-listed SEC ticker feed rather than a point-in-time 2015-2025 CRSP/Compustat/security-master universe. See `docs/PILOT_STATUS_AND_LIMITATIONS.md`.
 
 ## Research Design
 
@@ -64,7 +66,7 @@ Raw SEC filings, WRDS/CRSP data, and row-level return panels are intentionally e
 
 ## Reproducibility Notes
 
-This repository is a working-paper code and documentation archive. Full regeneration requires:
+This repository is a pilot code and documentation archive. Full regeneration requires:
 
 - SEC EDGAR access with a compliant user-agent.
 - WRDS/CRSP access for security links, daily stock returns, market returns, and delisting/corporate-action data.
@@ -82,3 +84,5 @@ The currently published aggregate tables are sufficient to audit the baseline mo
 ## Status
 
 Current checkpoint: `CHECKPOINT_34_BASELINE_WRITEUP_COMPONENTS.md`.
+
+Publication-grade next steps are summarized in `docs/NEXT_STEPS_FOR_PUBLICATION_GRADE_VERSION.md`.
